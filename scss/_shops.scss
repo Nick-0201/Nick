@@ -1,0 +1,19 @@
+.shops {
+    &__title {
+        text-align: center;
+        font-size: var(--big-font);
+        margin: 30px;
+
+        &>span {
+            color: var(--main-color);
+        }
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+    }
+}

@@ -1,0 +1,18 @@
+.guide {
+    background-position: bottom center;
+    height: 300;
+    width: 100%;
+
+
+    &__title {
+        text-align: center;
+        font-size: var(--h1-font);
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        &>span {
+            color: var(--main-color);
+
+        }
+    }
+}
